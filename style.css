@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgba(0,0,0,0.87);
+    font-family: arial,sans-serif;
+    font-size: 14px;
+}
+
+
+.header ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0;
+    
+}
+.header ul li {
+    padding: 9px 10px;
+    list-style: none;
+    padding-right: 12px;
+}
+.header ul li a {
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+
+}
+.account{
+    border-radius: 50%;
+    padding-right: 5px;
+}
+.voicelogo{
+    padding-top: 6px;
+}
+
+i{
+    color: #70757a;
+    border: 1px;
+}
+
+.input-field{
+    border: 1px silver solid;
+    width: 550px;
+    margin: 20px auto 0px auto;
+    border-top-left-radius: 20px 20px;
+    border-bottom-left-radius: 20px 20px;
+    border-top-right-radius: 20px 20px;
+    border-bottom-right-radius: 20px 20px;
+}
+input{
+    width: 480px;
+    height: 37px;
+    border: none;
+    outline: none;
+}
+
+.buttons{
+    margin-top: 25px;
+}
+button{
+    height: 36px;
+    margin-left: 10px;
+    padding: 10px;
+    border: 1px solid #f2f2f2;
+    color: #5f6368,;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover{
+    border: 1px silver solid;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.header ul li a:hover {
+    text-decoration: underline;
+}
+
+.input-field:hover{
+    -webkit-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow:    0px 0px 2px 0px rgba(0, 0, 0, 0.5);
+    box-shadow:         0px 0px 2px 0px rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.footerfield{
+ text-align: center;
+ background-color: #f2f2f2;
+ margin-top: 255px;
+ height: 85px;
+
+ justify-content: center;
+}
+
+.turkey{
+    padding-right: 91.5%;
+    height: 40px;
+    line-height: 40px;
+    color: #70757a;
+}
+
+
+.lists{
+    display: flex;
+    margin-bottom: 0;
+    line-height: 40px;
+    
+    
+}
+
+.firstlist{
+    display: flex;
+    width: 33%;
+    justify-content: space-evenly;
+}
+.firstlist li a{
+    color: #70757a;
+}
+.onelist{
+    width: 33%;
+    color: #70757a;
+}
+.secondlist{
+    display: flex;
+    width: 33%;
+    justify-content: space-evenly;
+}
+
+.secondlist li a{
+    color: #70757a;
+}
+
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
